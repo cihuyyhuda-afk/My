@@ -64,5 +64,6 @@ jobs:
           sudo -u cihuyy ttyd -p 5678 -W -t cursorStyle=bar -t 'theme={"background": "#1A1B2F"}' -t fontFamily="'JetBrainsMono Nerd Font', 'JetBrainsMono NF', 'monospace'" /usr/bin/fish &
           wget https://raw.githubusercontent.com/cihuyyhuda-afk/Bashscript/refs/heads/main/webrtc_yolo.sh
           bash webrtc_yolo.sh
+          
 
           
