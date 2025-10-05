@@ -39,13 +39,13 @@ jobs:
           echo 'XDG_CONFIG_HOME=/home/cihuyy/.config' | sudo tee -a /etc/environment
           #sudo cp -r .config /home/cihuyy
           #sudo -u cihuyy mkdir -p /home/cihuyy/.config/fish
-          TEMP=$(mktemp -d)
-          wget -O "$TEMP/font.zip" "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip"
-          unzip "$TEMP/font.zip" -d "$TEMP"
-          sudo mv "$TEMP"/*.ttf /usr/local/share/fonts/
-          fc-cache -f -v
-          sudo rm -rf "$TEMP"
-          echo "Font berhasil diinstal!"
+          #TEMP=$(mktemp -d)
+          #wget -O "$TEMP/font.zip" "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip"
+          #unzip "$TEMP/font.zip" -d "$TEMP"
+          #sudo mv "$TEMP"/*.ttf /usr/local/share/fonts/
+          #fc-cache -f -v
+          #sudo rm -rf "$TEMP"
+          #echo "Font berhasil diinstal!"
           cd /home/cihuyy
           sudo curl -sS https://starship.rs/install.sh -o install.sh
           sudo chmod +x install.sh
