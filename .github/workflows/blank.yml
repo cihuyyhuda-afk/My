@@ -65,5 +65,3 @@ jobs:
           sudo bash webrtc_yolo.sh
 
           
-
-          
