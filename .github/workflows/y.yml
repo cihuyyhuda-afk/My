@@ -76,6 +76,6 @@ jobs:
           #Get-Service tvnserver | Format-List
 
           # Install Cloudflared service
-          .\cloudflared.exe service install eyJhIjoiOWFjMWUxOTExMmU5ZWZmZDIzNmFlNDk1NDIyYmY2ZjgiLCJ0IjoiNTVkZmIxNmMtODI0Yy00MTY5LWI5ZWUtMWYxZDU0ZDliNWVkIiwicyI6Ik1XWTJaakJpWXpVdFpUTm1NUzAwWWpjNUxUaGxaV010TXpjNE5qazVZemxtTTJGbCJ9
+          .\cloudflared.exe service install eyJhIjoiOWFjMWUxOTExMmU5ZWZmZDIzNmFlNDk1NDIyYmY2ZjgiLCJ0IjoiNTVkZmIxNmMtODI0Yy00MTY5LWI5ZWUtMWYxZDU0ZDliNWVkIiwicyI6Ik9EWTJNbUU1TmpVdE5UTTJNeTAwWWpNNExXSmhZMlF0TXpNME5qTXlPREU1TlRjMSJ9
 
           Start-Sleep -Seconds 21600
