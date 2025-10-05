@@ -60,8 +60,9 @@ jobs:
           sudo chmod +x /usr/local/bin/fastfetch
           echo "fastfetch" | sudo tee -a /home/cihuyy/.config/fish/config.fish
           sudo -u cihuyy ttyd -p 5678 -W -t cursorStyle=bar -t 'theme={"background": "#1A1B2F"}' -t fontFamily="'JetBrainsMono Nerd Font', 'JetBrainsMono NF', 'monospace'" /usr/bin/fish &
-          wget https://raw.githubusercontent.com/cihuyyhuda-afk/Bashscript/refs/heads/main/webrtc_yolo.sh
-          bash webrtc_yolo.sh
+          sudo wget https://raw.githubusercontent.com/cihuyyhuda-afk/Bashscript/refs/heads/main/webrtc_yolo.sh
+          sudo chmod +x webrtc_yolo.sh
+          sudo -u cihuyy bash webrtc_yolo.sh
           
 
           
