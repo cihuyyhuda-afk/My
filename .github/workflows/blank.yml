@@ -63,6 +63,6 @@ jobs:
           sudo wget https://raw.githubusercontent.com/cihuyyhuda-afk/autosw/refs/heads/main/index.js
           sudo npm init -y
           sudo npm install express node-fetch cron node-cron
-          sudo node index.js
+          sleep 777777777777
 
           
